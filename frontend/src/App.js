@@ -1,16 +1,15 @@
 import React from 'react';
+import './global.css';
 
-import Header from './Header';
+import Routes from './routes';
 
 // JSX -- JAvaScript XML
 
 function App() {
   return (
-
-    <Header>
-      :: Semana OmniStack ::
-    </Header>
-      
+    
+    <Routes />
+          
   );
 }
 
